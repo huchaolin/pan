@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网盘登录</title>
+</head>
+<link rel="stylesheet" href="./login.css">
+<body>
+    <div class="login_box">
+        <form class="loginform">
+            <div class="loginpage">
+                <div class="name">
+                    <div>账号:</div>
+                    <input name="userId" class="correct_input" type="text"/>
+                </div>
+                <div class="name_warning">请输入账号</div>
+                <div class="code">
+                    <div>密码:</div>
+                    <input name="userCode" class="correct_input" type="password"/>
+                </div>
+                <div class="code_warning">请输入密码</div>
+                <!-- <div class="remember_forget">
+                    <div class="remember">
+                        <input type="checkbox" name="" id="remember">
+                       <label for="remember">记住我</label> 
+                    </div>
+                    <div class="forget"><a> 忘记密码</a></div>
+                </div> -->
+                <div class="login">
+                    <button type="submit" class="loginbtn">登录</button>
+                </div>
+                <div>
+                    <div class="register">
+                        测试账号：1，密码：1
+                        <span class="register_now"></span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <script src="https://cdn.bootcss.com/axios/0.16.0/axios.min.js"></script>   
+    <script src="login.js"></script>
+</body>
+</html>

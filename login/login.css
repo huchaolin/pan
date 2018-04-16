@@ -1,0 +1,108 @@
+
+.loginpage {
+    width: 20%;
+    margin: 0 auto;
+    padding: 100px;
+}
+.loginpage>div {
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    position: relative;
+}
+.correct_input {
+    display: block;
+    width: 100%;
+    height: 100%;   
+    border:1px solid gray; 
+    border-radius: 5px;
+    padding-left:50px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.correct_input:hover {
+    border-color: #40a9ff;
+    border-radius: 5px;
+}
+.correct_input:focus {
+    border-color: #40a9ff;
+    outline: 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+.wrong_input {
+    display: block;
+    width: 100%;
+    height: 100%;   
+    border:1px solid #f5222d; 
+    border-radius: 5px;
+    padding-left:50px;
+    box-sizing: border-box;
+}
+
+.loginpage .name>div:first-of-type, .loginpage .code>div:first-of-type {
+    position: absolute;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 8px;
+    top: 50%;
+    color: gray;
+    font-size: 16px;
+}
+.loginpage .remember_forget input {
+    margin: 0;
+}
+.loginpage .remember_forget .remember {
+ float: left;
+ font-size: 13px;
+ color: black;
+ height:100%;
+ width: 30%;
+}
+
+.loginpage .remember_forget  .forget{
+    float: right;
+    font-size: 13px;
+    color: #40a9ff;
+    cursor: pointer;
+}
+.loginbtn {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    display: block;
+    width: 100%;
+    height: 100%;   
+    border: 1px solid;
+    border-radius: 5px;
+    padding-left:50px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+}
+.loginbtn:active {
+    color: #fff;
+    background-color: #096dd9;
+    border-color: #096dd9;
+}
+.register span:first-of-type{
+    color:gray;
+    font-size: 16px;
+ }
+ .register{
+    color:gray;
+    font-size: 16px;
+ }
+ .register_now {
+    color:#1890ff!important;
+    font-size: 12px!important;
+    cursor: pointer;
+ }
+ .name_warning, .code_warning {
+    font-size: 13px;
+    line-height: 32px;
+    color: transparent;
+    letter-spacing: 1px;
+ }
